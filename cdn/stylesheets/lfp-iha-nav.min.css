@@ -79,25 +79,3 @@
     color: #000000;
     font-weight: bold;
 }
-
-
-/*For Angular Material Navbar Component*/
-md-toolbar.ld-nav {
-  padding: 0;
-
-}
-
-md-toolbar.ld-nav md-toolbar-row {
-  height: 50px;
-}
-
-md-toolbar.ld-nav md-toolbar-row.submenu{
-  height: 40px;
-  background: #f5f5f5;
-  color: black;
-}
-
-
-md-toolbar.ld-nav button {
-  min-width: 50px;
-}
