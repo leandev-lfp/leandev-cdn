@@ -1,0 +1,70 @@
+#global-header {
+    margin: 10px auto 14px;
+    position: relative;
+}
+
+#global-header-area {
+    padding: 7px 0;
+}
+
+.global-logo {
+    float: left;
+    padding-top: 7px;
+}
+
+.global-logo span {
+    display: block;
+    width: 266px;
+    height: 63px;
+    background: transparent url('../images/lfp-logo.png') left top no-repeat;
+}
+
+.global-toplinks {
+    float: right;
+    margin: 35px 10px 5px;
+}
+
+.global-toplinks ul li {
+    float: left;
+    margin: 0 0.4em;
+}
+
+
+.global-nav-content {
+    height: 80px;
+    padding-left: 10px;
+}
+
+
+.fn-clear:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.fn-clear {
+    zoom: 1;
+}
+
+.fn-hide {
+    display: none;
+}
+
+.fn-left, .fn-right {
+    display: inline;
+}
+
+.fn-left {
+    float: left;
+}
+
+.fn-right {
+    float: right;
+}
+
+ul.global-ul {
+    list-style: none;
+}
