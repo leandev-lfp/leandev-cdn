@@ -1,4 +1,4 @@
 $('.lfp-panel').puipanel();
-$('.lfp-input').puiinputtext();
-$('.lfp-checkbox').puiswitch();
-$('.lfp-select').puidropdown();
+$('.lfp-inputtext').puiinputtext();
+$('.lfp-switch').puiswitch();
+$('.lfp-dropdown').puidropdown();
