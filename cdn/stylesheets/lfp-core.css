@@ -441,7 +441,7 @@ body .fn-hide {
 .global-nav-item-a:hover strong,
 .global-subnav .global-subnav-active a,
 .global-subnav .global-subnav-active a span {
-    background: transparent url("../images/global-nav_blue.png']}") no-repeat;
+    background: transparent url("../images/global-nav_blue.png") no-repeat;
 }
 
 .global-nav {
@@ -560,7 +560,7 @@ ul.global-subnav  a span {
     display: block;
     width: 266px;
     height: 63px;
-    background: transparent url("../images/lfp-logo.png']}") left top no-repeat;
+    background: transparent url("../images/lfp-logo.png") left top no-repeat;
 }
 
 .global-toplinks {
