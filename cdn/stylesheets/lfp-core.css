@@ -441,7 +441,7 @@ body .fn-hide {
 .global-nav-item-a:hover strong,
 .global-subnav .global-subnav-active a,
 .global-subnav .global-subnav-active a span {
-    background: transparent url("#{resource['images/global-nav_blue.png']}") no-repeat;
+    background: transparent url("../images/global-nav_blue.png']}") no-repeat;
 }
 
 .global-nav {
@@ -526,7 +526,6 @@ ul.global-subnav  a span {
     padding: 0 5px;
     height: 28px;
     line-height: 28px;
-    line-height: 32 pxurl(0);
     overflow: hidden;
     float: left;
 }
@@ -561,7 +560,7 @@ ul.global-subnav  a span {
     display: block;
     width: 266px;
     height: 63px;
-    background: transparent url("#{resource['images/lfp-logo.png']}") left top no-repeat;
+    background: transparent url("../images/lfp-logo.png']}") left top no-repeat;
 }
 
 .global-toplinks {
@@ -658,22 +657,22 @@ ul.global-subnav  a span {
     top: 3px;
     height: 20px;
     width: 20px;
-    background: transparent url("#{resource['/images/icons_c9c9c9.png']}") no-repeat right -700px;
+    background: transparent url("../images/icons_c9c9c9.png") no-repeat right -700px;
 }
 
 .global-search .search-icon:hover {
     cursor: pointer;
-    background-image: url("#{resource['/images/icons_258dc8.png']}");
+    background-image: url("../images/icons_258dc8.png");
 }
 
 .global-search  .search-filter strong span {
-    background: url("#{resource['images/search/search-arrow.png']}") 100% 8px no-repeat;
+    background: url("../images/search/search-arrow.png") 100% 8px no-repeat;
     display: block;
     padding-right: 11px;
 }
 
 .global-search  .search-filter.open  strong span {
-    background: url("#{resource['images/search/search-arrow.png']}") 100% -15px no-repeat;
+    background: url("../images/search/search-arrow.png") 100% -15px no-repeat;
 }
 
 .global-search  .search-filter strong {
@@ -941,7 +940,7 @@ table#ownerIdentity .ui-radiobutton{
 }
 
 .global-nav-item-active .global-nav-item-a strong#depositDashBoardMenu-text{
-    background: transparent url("#{resource['images/speedometer-32-grey.png']}") no-repeat scroll top center;
+    background: transparent url("../images/speedometer-32-grey.png") no-repeat scroll top center;
     text-indent: -300px;
     white-space: nowrap;
     overflow: hidden;
@@ -950,7 +949,7 @@ table#ownerIdentity .ui-radiobutton{
 }
 
 .global-nav-item-a strong#depositDashBoardMenu-text{
-    background: transparent url("#{resource['images/speedometer-32.png']}") no-repeat scroll top center;
+    background: transparent url("../images/speedometer-32.png") no-repeat scroll top center;
     text-indent: -300px;
     white-space: nowrap;
     overflow: hidden;
@@ -965,7 +964,7 @@ a#depositDashBoardMenu-link{
 }
 
 .global-nav-item-active .global-nav-item-a strong#main-text{
-    background: transparent url("#{resource['images/home-32-grey.png']}") no-repeat scroll top center;
+    background: transparent url("../images/home-32-grey.png") no-repeat scroll top center;
     text-indent: -300px;
     white-space: nowrap;
     overflow: hidden;
@@ -973,7 +972,7 @@ a#depositDashBoardMenu-link{
     background-position: top center!important;
 }
 .global-nav-item-a strong#main-text{
-    background: transparent url("#{resource['images/home-32.png']}") no-repeat scroll top center;
+    background: transparent url("../images/home-32.png") no-repeat scroll top center;
     text-indent: -300px;
     white-space: nowrap;
     overflow: hidden;
