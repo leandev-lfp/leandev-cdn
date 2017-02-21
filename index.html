@@ -1,84 +1,74 @@
 <!DOCTYPE html>
 
 <html lang="en">
-    <head>
-        <title>@title</title>
+<head>
+    <title>@title</title>
+    <link rel="shortcut icon" type="image/png" href="https://leandev-lfp.github.io/leandev-cdn/cdn/images/leandev.png">
+
+    <link rel='stylesheet' href="https://leandev-lfp.github.io/leandev-cdn/cdn/stylesheets/lfp-core.css?v=1.0">
+    <link rel='stylesheet' href="https://leandev-lfp.github.io/leandev-cdn/cdn/stylesheets/lfp-theme.css?v=1.0">
+</head>
+<body>
+<div class="lfp-container">
+    <div id="global-header-area" class="fn-clear">
+        <div class="global-logo">
+            <span></span>
+        </div>
+        <div class="global-toplinks">
+            <div id="switchLanguage">
+                development environment, Version: <label>1.0.0</label>
+                <a href="#">English</a>
+            </div>
+            <ul>
+
+                <li>Welcome <strong>[User Name]</strong></li>
+                <li>|</li>
+                <li><a href="#">Logout</a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="global-header" class="the-lfp-global">
+        <nav class="global-nav">
+            <div class="global-nav-content">
+                <li class="global-nav-item"><a class="global-nav-item-a" href="#"><strong id="main-text">
+                    Home</strong></a></li>
+                <li class="global-nav-item global-nav-item-active">
+                    <a class="global-nav-item-a" href="#"><strong>Menu Item</strong></a>
+                    <ul class="global-subnav">
+                        <li class="global-subnav-active"><a href="#"> <span>Submenu 1</span></a></li>
+                        <li><a href="#"> <span>Submenu 2</span></a></li>
+                    </ul>
+
+                </li>
+                }
+            </div>
+        </nav>
+    </div>
+
+    <h1>LeanDev CDN Service</h1>
+
+    <h4>Use following content within your page header to get access to css and other resources</h4>
+    <xmp>
         <link rel="shortcut icon" type="image/png" href="https://leandev-lfp.github.io/leandev-cdn/cdn/images/leandev.png">
 
-        <!-- Latest compiled and minified CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel='stylesheet' href="https://leandev-lfp.github.io/leandev-cdn/cdn/stylesheets/lfp-core.css?v=1.0">
+        <link rel='stylesheet' href="https://leandev-lfp.github.io/leandev-cdn/cdn/stylesheets/lfp-theme.css?v=1.0">
+    </xmp>
 
-        <!-- Latest compiled and minified JavaScript -->
-       <script type='text/javascript' src='http://code.jquery.com/jquery-3.1.1.min.js'></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <h4>Optionally when you use PrimeUI, you can use the script in the bottom of you body to enable components to primeUI components</h4>
 
-        <link rel='stylesheet' href="https://leandev-lfp.github.io/leandev-cdn/cdn/stylesheets/lfp-iha.min.css">
-        <link rel='stylesheet' href="https://leandev-lfp.github.io/leandev-cdn/cdn/stylesheets/lfp-iha-nav.min.css">
-        <link rel='stylesheet' href="https://leandev-lfp.github.io/leandev-cdn/cdn/stylesheets/lfp-iha-footer.min.css">
-        <link rel='stylesheet' href="https://leandev-lfp.github.io/leandev-cdn/cdn/stylesheets/lfp-header.min.css">
-    </head>
-    <body>
-        <div class="container">
-            <div id="global-header-area" class="fn-clear">
-                <div class="global-logo">
-                    <span></span>
-                </div>
-                <div class="global-toplinks">
-                    <ul class="global-ul">
-                            <li>Welcome</li>
-                            <li>|</li>
-                            <li><a href="#">Logout</a></li>
-                    </ul>
-                </div>
+    <xmp>
+        <script type='text/javascript' src='https://leandev-lfp.github.io/leandev-cdn/cdn/javascripts/lfp-prime.js?v=1.0'></script>
+    </xmp>
+
+    <footer class="footer lfp-footer">
+            <div class="text-muted">
+                Copyright © 2016 LeanDev, All Rights Reserved. 1.0.1
+                <a data-target="#gitVersion" data-toggle="collapse">build number</a>
+
             </div>
-            <div id="global-header">
-                <nav class="navbar navbar-default">
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                        <a class="navbar-brand glyphicon glyphicon-home" href="/"></a>
-                    </div>
+    </footer>
+</div>
 
-                    <div id="navbar" class="navbar-collapse collapse">
-                        <ul class="nav navbar-nav">
-
-                            <li class="active"><a href="#">Introduction</a></li>
-
-                        </ul>
-                    </div>
-                </nav>
-                <nav class="navbar subnavbar">
-                    <div class="navbar-collapse collapse">
-                        <ul class="nav navbar-nav">
-                            <li class="active"}><a href="#">Submenu</a></li>
-                        </ul>
-                    </div>
-                </nav>
-            </div>
-            <div id="mainMessage"></div>
-
-            <h2>LeanDev CDN Service</h2>
-
-            Use following content within your page header to get access to css and other resources
-<xmp>
-            <link rel='stylesheet' href="https://leandev-lfp.github.io/leandev-cdn/cdn/stylesheets/lfp-iha.min.css">
-            <link rel='stylesheet' href="https://leandev-lfp.github.io/leandev-cdn/cdn/stylesheets/lfp-iha-nav.min.css">
-            <link rel='stylesheet' href="https://leandev-lfp.github.io/leandev-cdn/cdn/stylesheets/lfp-iha-footer.min.css">
-            <link rel='stylesheet' href="https://leandev-lfp.github.io/leandev-cdn/cdn/stylesheets/lfp-header.min.css">
-</xmp>
-            <footer class="footer lfp-footer">
-                <div class="container">
-                    <div class="text-muted">
-                        Copyright © 2016 LeanDev, All Rights Reserved. 1.0.1
-                        <a data-target="#gitVersion" data-toggle="collapse">build number</a>
-
-                    </div>
-                </div>
-            </footer>
-        </div>
-
-    </body>
+</body>
 </html>
