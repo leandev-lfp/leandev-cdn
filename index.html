@@ -4,9 +4,9 @@
 <head>
     <title>CDN</title>
     <link rel="shortcut icon" type="image/png" href="https://leandev-lfp.github.io/leandev-cdn/cdn/images/leandev.png">
-
-    <link rel='stylesheet' href="https://leandev-lfp.github.io/leandev-cdn/cdn/stylesheets/lfp-core.css?v=1.0">
-    <link rel='stylesheet' href="https://leandev-lfp.github.io/leandev-cdn/cdn/stylesheets/lfp-theme.css?v=1.0">
+    <link rel='stylesheet' href="https://leandev-lfp.github.io/leandev-cdn/cdn/v2/stylesheets/lfp-bootstrap.css?v=1.0">
+    <link rel='stylesheet' href="https://leandev-lfp.github.io/leandev-cdn/cdn/v2/stylesheets/lfp-bootstrap.overwrite.css?v=1.0">
+    <link rel='stylesheet' href="https://leandev-lfp.github.io/leandev-cdn/cdn/v2/stylesheets/lfp-layout.min.css?v=1.0">
 </head>
 <body>
 <div class="lfp-container">
@@ -27,22 +27,29 @@
             </ul>
         </div>
     </div>
-    <div id="global-header" class="the-lfp-global">
-        <nav class="global-nav">
-            <div class="global-nav-content">
-                <li class="global-nav-item"><a class="global-nav-item-a" href="#"><strong id="main-text">
-                    Home</strong></a></li>
-                <li class="global-nav-item global-nav-item-active">
-                    <a class="global-nav-item-a" href="#"><strong>Menu Item</strong></a>
-                    <ul class="global-subnav">
-                        <li class="global-subnav-active"><a href="#"> <span>Submenu 1</span></a></li>
-                        <li><a href="#"> <span>Submenu 2</span></a></li>
-                    </ul>
+    <div id="global-header">
+        <nav class="navbar navbar-default">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#"><i class="fa fa-home"></i></a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Active Menu</a></li>
+                    <li ><a href="#">Other Menu</a></li>
+                </ul>
+            </div>
 
-                </li>
+        </nav>
+        <nav class="navbar subnavbar">
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">active sub menu</a></li>
+                    <li><a href="#">other sub menu</a></li>
+                </ul>
             </div>
         </nav>
     </div>
+
 
     <h1>LeanDev CDN Service</h1>
     <br/>
@@ -50,9 +57,11 @@
     <h4>Use following content within your page header to get access to css and other resources</h4>
     <xmp>
         <link rel="shortcut icon" type="image/png" href="https://leandev-lfp.github.io/leandev-cdn/cdn/images/leandev.png">
-
-        <link rel='stylesheet' href="https://leandev-lfp.github.io/leandev-cdn/cdn/stylesheets/lfp-core.css?v=1.0">
-        <link rel='stylesheet' href="https://leandev-lfp.github.io/leandev-cdn/cdn/stylesheets/lfp-theme.css?v=1.0">
+        <link rel='stylesheet' href="https://leandev-lfp.github.io/leandev-cdn/cdn/v2/stylesheets/lfp-bootstrap.css?v=1.0">
+        <link rel='stylesheet' href="https://leandev-lfp.github.io/leandev-cdn/cdn/v2/stylesheets/lfp-bootstrap.overwrite.css?v=1.0">
+        <link rel='stylesheet' href="https://leandev-lfp.github.io/leandev-cdn/cdn/v2/stylesheets/lfp-layout.min.css?v=1.0">
+        <script type='text/javascript' src='@routes.WebJarAssets.at(webJarAssets.locate("2.1.4/jquery.min.js"))'></script>
+        <script type='text/javascript' src='@routes.WebJarAssets.at(webJarAssets.locate("bootstrap.min.js"))'></script>
     </xmp>
 
     <h4>Optionally when you use PrimeUI, you can use the script in the bottom of you body to enable components to primeUI components</h4>
