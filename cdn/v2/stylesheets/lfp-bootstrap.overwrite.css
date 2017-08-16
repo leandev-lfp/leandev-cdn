@@ -26,19 +26,6 @@
     padding: 5px 12px;
 }
 
-span{
-    font: 8pt/1.5 tahoma, arial, \5b8b\4f53, sans-serif;
-}
-
-input{
-    font: 8pt/1.5 tahoma, arial, \5b8b\4f53, sans-serif;
-}
-
-a{
-    padding: 4px;
-    font: 8pt/1.5 tahoma, arial, \5b8b\4f53, sans-serif;
-}
-
 input[type="text"]{
     border: 1px solid #C8C8C8;
     border-radius:3px;
