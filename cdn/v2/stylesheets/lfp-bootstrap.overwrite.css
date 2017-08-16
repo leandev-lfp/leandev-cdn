@@ -25,3 +25,227 @@
 .input-group-addon{
     padding: 5px 12px;
 }
+
+span{
+    font: 8pt/1.5 tahoma, arial, \5b8b\4f53, sans-serif;
+}
+
+input{
+    font: 8pt/1.5 tahoma, arial, \5b8b\4f53, sans-serif;
+}
+
+a{
+    padding: 4px;
+    font: 8pt/1.5 tahoma, arial, \5b8b\4f53, sans-serif;
+}
+
+input[type="text"]{
+    border: 1px solid #C8C8C8;
+    border-radius:3px;
+    -webkit-box-shadow: inset 0 2px 2px #8f8f8f;
+    color: #313131;
+    background: #ffffff;
+    margin-bottom: 5px;
+    padding: 4px;
+    text-shadow: 0px 1px 0px rgba(255,255,255,0.7);
+}
+
+input[type="text"]:hover{
+    border: 1px solid #7096ab;
+    border-radius:3px;
+    -webkit-box-shadow: inset 0 2px 2px #8f8f8f;
+    background: #ffffff;
+    margin-bottom: 5px;
+    padding: 4px;
+    text-shadow: 0px 1px 0px rgba(255,255,255,0.7);
+}
+
+input[type="password"]{
+    border: 1px solid #C8C8C8;
+    border-radius:3px;
+    -webkit-box-shadow: inset 0 2px 2px #8f8f8f;
+    color: #313131;
+    background: #ffffff;
+    margin-bottom: 5px;
+    padding: 4px;
+    text-shadow: 0px 1px 0px rgba(255,255,255,0.7);
+}
+
+input[type="password"]:hover{
+    border: 1px solid #7096ab;
+    border-radius:3px;
+    -webkit-box-shadow: inset 0 2px 2px #8f8f8f;
+    background: #ffffff;
+    margin-bottom: 5px;
+    padding: 4px;
+    text-shadow: 0px 1px 0px rgba(255,255,255,0.7);
+}
+
+
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3,
+.col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6,
+.col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9,
+.col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12,
+.col-lg-12{
+    padding-left: 5px;
+}
+
+/*todo, could we make following modal as consistent */
+.modal-header{
+    border-radius: 3px;
+    padding: .4em .4em .4em 1em;
+    background: #E4E4E4 -webkit-gradient(linear, left top, left bottom, from(rgba(255,255,255,0.8)), to(rgba(255,255,255,0)));
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border: 0px;
+}
+
+.modal-content {
+    border-radius: 3px;
+}
+
+.modal-title {
+    color: #333;
+    font-weight: bold;
+    text-shadow: 0px 1px 0px rgba(255,255,255,0.7);
+    margin: .3em 16px .1em 0;
+}
+
+.list-group-item {
+    font-size: 1em;
+    color: #313131;
+}
+
+.list-group-item:hover{
+    border: 1px solid #7096ab;
+    border-top-color: rgb(112, 150, 171);
+    border-right-color: rgb(112, 150, 171);
+    border-bottom-color: rgb(112, 150, 171);
+    border-left-color: rgb(112, 150, 171);
+    background: #85b2cb linear-gradient(top, rgba(255,255,255,0.6), rgba(255,255,255,0));
+    background: #85b2cb -webkit-gradient(linear, left top, left bottom, from(rgba(255,255,255,0.6)), to(rgba(255,255,255,0)));
+    background: #85b2cb -moz-linear-gradient(top, rgba(255,255,255,0.6), rgba(255,255,255,0));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#CCFFFFFF, endColorstr=#00FFFFFF);
+    background: #6AAACB;
+    font-weight: normal;
+    color: #313131;
+    -moz-box-shadow: 0 0 5px #85b2cb;
+    -webkit-box-shadow: 0px 0px 8px #85b2cb;
+    box-shadow: 0px 0px 8px #85b2cb;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+}
+.panel-default > .panel-heading{
+    font-family: Arial,sans-serif;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    color: #656565;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+
+    border-color: #C8C8C8;
+    border-width: 1px;
+}
+
+.ui-menuitem-text{
+    font-size: 12px;
+}
+
+
+.ui-dialog-titlebar-close{
+    float: right;
+    margin: 0px;
+    top: 0px;
+    padding: 1px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 10px;
+}
+
+.ui-dialog-titlebar-close:hover{
+    border: 1px solid #7096ab;
+    /* background: #85b2cb url(/javax.faces.resource/images/ui-bg_highlight-hard_80_85b2cb_1x100.png.view?ln=primefaces-savethepig) 50% 50% repeat-x; */
+    /* background: #85b2cb -webkit-gradient(linear, left top, left bottom, from(rgba(255,255,255,0.6)), to(rgba(255,255,255,0))); */
+    background: #6AAACB;
+    font-weight: bold;
+    color: #313131;
+    -moz-box-shadow: 0 0 5px #85b2cb;
+    -webkit-box-shadow: 0px 0px 8px #85b2cb;
+    box-shadow: 0px 0px 8px #85b2cb;
+}
+
+.modal-title{
+    font-size: 12px;
+}
+
+.ui-corner-all {
+    -moz-border-radius: 4px /*{cornerRadius}*/;
+    -webkit-border-radius: 4px /*{cornerRadius}*/;
+    border-radius: 4px /*{cornerRadius}*/;
+}
+
+.ui-messages-info, .ui-message-info {
+    color: #3a87ad;
+    background-color: #d9edf7;
+    border-color: #bce8f1;
+}
+
+
+.ui-messages-error, .ui-message-error{
+    color: #b94a48;
+    background-color: #f2dede;
+    border-color: #eed3d7;
+}
+
+.ui-messages-info, .ui-messages-warn, .ui-messages-error, .ui-messages-fatal{
+    border: 1px solid;
+    margin: 10px 0px;
+    padding: 5px 10px 10px 10px;
+}
+
+.ui-messages-info-icon, .ui-messages-warn-icon, .ui-messages-error-icon, .ui-messages-fatal-icon, .ui-message-info-icon, .ui-message-warn-icon, .ui-message-error-icon, .ui-message-fatal-icon{
+
+    width: 40px;
+    height: 40px;
+    background: url('../images/messages.png') no-repeat;
+    display: block;
+    float: left;
+    margin: 0;
+    padding: 0;
+    background-position: 0px -263px;
+    margin-left: 10px;
+}
+
+.ui-messages-error-icon{
+    width: 40px;
+    height: 40px;
+    background: url('../images/messages.png') no-repeat;
+    display: block;
+    float: left;
+    margin: 0;
+    padding: 0;
+    background-position: 0px 0px;
+    margin-left: 10px;
+}
+
+.ui-messages-info-summary, .ui-messages-warn-summary, .ui-messages-error-summary, .ui-messages-fatal-summary, .ui-message-info-summary, .ui-message-warn-summary, .ui-message-error-summary, .ui-message-fatal-summary{
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.ui-widget :active{
+    outline: none;
+}
+
+.ui-messages ul{
+    margin: 0 25px;
+    padding: 0;
+    list-style-type: none;
+}
+
+ul, ol{
+    list-style: none;
+}
+

@@ -56,12 +56,15 @@
 
     <h4>Use following content within your page header to get access to css and other resources</h4>
     <xmp>
+        @*default imports*@
         <link rel="shortcut icon" type="image/png" href="https://leandev-lfp.github.io/leandev-cdn/cdn/images/leandev.png">
         <link rel='stylesheet' href="https://leandev-lfp.github.io/leandev-cdn/cdn/v2/stylesheets/lfp-bootstrap.css?v=1.0">
         <link rel='stylesheet' href="https://leandev-lfp.github.io/leandev-cdn/cdn/v2/stylesheets/lfp-bootstrap.overwrite.css?v=1.0">
         <link rel='stylesheet' href="https://leandev-lfp.github.io/leandev-cdn/cdn/v2/stylesheets/lfp-layout.min.css?v=1.0">
         <script type='text/javascript' src='@routes.WebJarAssets.at(webJarAssets.locate("2.1.4/jquery.min.js"))'></script>
         <script type='text/javascript' src='@routes.WebJarAssets.at(webJarAssets.locate("bootstrap.min.js"))'></script>
+        <link rel='stylesheet' href='@routes.WebJarAssets.at(webJarAssets.locate("font-awesome.min.css"))'>
+        @*default imports*@
     </xmp>
 
     <h4>Optionally when you use PrimeUI, you can use the script in the bottom of you body to enable components to primeUI components</h4>
