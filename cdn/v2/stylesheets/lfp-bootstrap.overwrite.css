@@ -32,6 +32,11 @@
     font-size: 1em;
 }
 
+.input-group-btn > .btn{
+    height: 24px;
+}
+
+
 .input-group .form-control {
     font-family: Arial, sans-serif;
     font-size: 1em;
