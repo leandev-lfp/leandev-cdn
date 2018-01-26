@@ -26,9 +26,17 @@
     margin: 35px 10px 5px;
 }
 
+.global-toplinks a {
+    color: #333333;
+}
+
+.global-toplinks ul.global-ul {
+    padding-left: 0;
+}
+
 .global-toplinks ul li {
     float: left;
-    margin: 0 0.4em;
+    margin-right: 0.8em;
 }
 
 .fn-clear:after {
