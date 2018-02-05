@@ -1,33 +1,8 @@
 /**
  * Created by tom wang on 11/3/17.
  */
-$(function(){
-    getCurrentUserInfo();
 
-});
-
-
-
-
-function getCurrentUserInfo(){
-    $.ajax({
-        url: '/auth/users/logined/roles',
-        type: "get",
-        success: disableViewForReadOnlyUserForInitLoanPage
-    });
-
-}
-
-
-
-
-function disableViewForReadOnlyUserForInitLoanPage(roles){
-    var needToReadOnly = false;
-    for(var index = 0 ; index < roles.length ; index ++){
-        if(roles[index] === "Global Read-only"){
-            needToReadOnly = true;
-        }
-    }
+function disableViewForReadOnlyUser(needToReadOnly){
     if(needToReadOnly){
         if(isNeedDisableViewForLoan()){
             disableView();
